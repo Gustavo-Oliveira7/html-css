@@ -1,11 +1,19 @@
-body{
+body {
 	background: #CCCCCC;
 }
 
-p{
+h1 {
+	text-align: center
+}
+
+p {
 	text-align: center;
 }
 
-strong{
+#descrição {
+	style="font-size: 20px;"
+}
+
+strong {
 	color: #336699;
 }
