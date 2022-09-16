@@ -22,3 +22,7 @@ p {
 strong {
 	color: #336699;
 }
+
+.itens {
+	font-style: italic;
+}
