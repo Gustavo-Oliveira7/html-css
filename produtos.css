@@ -47,6 +47,7 @@ nav a {
 	box-sizing: border-box; /* Não deixa o padding aumentar o tamanho do elemento,
 	 mantendo ele nos 30% que queriamos */
 	border: 2px solid #000000;
+	border-radius: 20px;
 }
 
 .produtos h2 {
