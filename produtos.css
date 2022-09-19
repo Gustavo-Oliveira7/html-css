@@ -44,7 +44,9 @@ nav a {
 	background: #CCCCCC;
 	margin: 0 1.5%;
 	padding: 30px 20px;
-	box-sizing: border-box; /* A */
+	box-sizing: border-box; /* Não deixa o padding aumentar o tamanho do elemento,
+	 mantendo ele nos 30% que queriamos */
+	border: 2px solid #000000;
 }
 
 .produtos h2 {
