@@ -1,5 +1,5 @@
 header {
-	background: #000000;
+	background: #17181A;
 	padding: 20px 0;
 }
 
@@ -79,4 +79,16 @@ nav a:hover { /* Altera o comportamento do elemento qnd o mouse está por cima*/
 
 .descrição-produto {
 	font-size: 18px;
+}
+
+footer {
+	text-align: center;
+	background: url("fundo3.png");
+	padding: 40px 0 0;
+}
+
+footer p {
+	color: white;
+	font-size: 16px;
+	background: #2D3033;
 }
