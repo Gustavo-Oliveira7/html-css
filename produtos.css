@@ -54,6 +54,18 @@ nav a:hover { /* Altera o comportamento do elemento qnd o mouse está por cima*/
 	border-radius: 20px;
 }
 
+.produtos li:hover {
+	border-color: #DAA520 ;
+}
+
+.produtos li:hover h2 {
+		font-size: 40px;
+}
+
+.produtos li:active { /* Usado para quando o mouse está pressionado */
+		border-color: lightgreen;
+}
+
 .produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
