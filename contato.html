@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 	<head>
 		<meta charset="utf-8">
@@ -27,30 +27,27 @@
 		<main>
 			<form>
 				<label for="nome">Nome e sobrenome</label>
-				<input type="text" id="nome">
+				<input type="text" id="nome" class="input-padrao">
 
 				<label for="email">Email</label>
-				<input type="text" name="email">
+				<input type="text" name="email" class="input-padrao">
 
 				<label for="telefone">Telefone</label>
-				<input type="text" name="telefone">
+				<input type="text" name="telefone" class="input-padrao">
 
 				<label for="mensagem">Mensagem</label>
-				<textarea cols="50" rows="5" id="mensagem"></textarea>
+				<textarea cols="50" rows="5" id="mensagem" class="input-padrao"></textarea>
 
 				<div>
 					<p>Como prefere o nosso contato?</p>
-					<label for="radio-email">Email</label>
-					<input type="radio" value="email" id="radio-email" name="contato">
-
-					<label for="radio-telefone">Telefone</label>
-					<input type="radio" value="telefone" id="radio-telefone" name="contato">
-
-					<label for="radio-whatsapp">Whatsapp</label>
-					<input type="radio" value="whatsapp" id="radio-whatsapp" name="contato">
+					<label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato">Email</label>
+					
+					<label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato">Telefone</label>
+				
+					<label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato">Whatsapp</label>
 				</div>
 
-				<label><input type="checkbox">Gostaria de receber novas novidades por email?</label>
+				<label class="checkbox"><input type="checkbox">Gostaria de receber novas novidades por email?</label>
 
 				<input type="submit" value="Enviar Formulário">
 			</form>
