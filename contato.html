@@ -13,7 +13,7 @@
 	<body>
 		<header>
 			<div class="caixamenu">
-				<h1><img src="logo1.jpg"></h1>			
+				<h1><img src="logo1.jpg" alt="Logo da GHO Capital"></h1>			
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -38,33 +38,33 @@
 				<label for="mensagem">Mensagem</label>
 				<textarea cols="50" rows="5" id="mensagem" class="input-padrao" required></textarea>
 
-				<div>
-					<p>Como prefere o nosso contato?</p>
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
 					<label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato">Email</label>
 					
 					<label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato">Telefone</label>
 				
 					<label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato" checked>Whatsapp</label>
-				</div>
+				</fieldset>
 
-				<div>
-					<p>Qual horário deseja ser atendido?</p>
+				<fieldset>
+					<legend>Qual horário deseja ser atendido?</legend>
 					<select>
 						<option>Manhã</option>
 						<option>Tarde</option>
 						<option>Noite</option>
 					</select>
-				</div>
+				</fieldset>
 
 				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber novas novidades por email?</label>
 
-				<input type="submit" value="Enviar Formulário">
+				<input type="submit" value="Enviar Formulário" class="enviar">
 			</form>
 		</main>
 
 
 		<footer>
-			<img src="logobranco.png">
+			<img src="logobranco.png" alt="Logo da GHO Capital">
 			<p class="copy">&copy; Copyright GHO Capital</p>
 		</footer>
 	</body>
