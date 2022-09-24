@@ -140,3 +140,25 @@ form label, form legend {
 	transform: scale(1.1);
 
 }
+
+table {
+	margin: 20px 40px;
+	text-align: center;
+}
+
+thead {
+	background:#17181A ;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 15px 8px;
+}
+
+#legenda-tabela {
+	font-size: 20px;
+	
+}
